@@ -1,3 +1,13 @@
+/**
+ * 本地已有的项目提交到git的操作
+ * git init
+ * 添加.gitignore文件
+ *  git add .
+ *  git commit -m"xxxx"
+ *  git remote add origin https://github.com/xxx/xx.git
+ *  git --rebase origin master
+ *  git push origin master
+ */
 package com.gts.handler;
 
 import org.apereo.cas.authentication.AuthenticationHandlerExecutionResult;
